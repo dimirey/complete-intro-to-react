@@ -691,3 +691,17 @@ header > input {
 .details > header + section {
   margin-top: 25px;
 }
+
+.nya {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/public/img/7.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #333;
+}

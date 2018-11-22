@@ -27,7 +27,7 @@ class Landing extends React.Component {
     return (
       <div className="landing">
         <h1>i love bebisas</h1>
-        <a href='https://i.imgur.com/46S8M9M.jpg'> nya </a>
+        <a href='/search'> nya </a>
         {/* <Link to="/search">or Browse All</Link> */}
       </div>
     );
