@@ -21,9 +21,13 @@ class Landing extends React.Component {
     // this.props.history.push('/search');
   };
   render() {
+    
+    // const link = <a href={this.makeHref('https://i.imgur.com/46S8M9M.jpg')}>test</a>;
+
     return (
       <div className="landing">
         <h1>i love bebisas</h1>
+        <a href='https://i.imgur.com/46S8M9M.jpg'> nya </a>
         {/* <Link to="/search">or Browse All</Link> */}
       </div>
     );

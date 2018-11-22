@@ -462,7 +462,7 @@ html {
 .landing > h1 {
   color: #B10DC9;
   font-family: Skia;
-  font-weight: normal;
+  font-weight: 900;
 }
 
 .landing > input, .landing > form > input {
