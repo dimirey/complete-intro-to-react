@@ -5,32 +5,18 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { setSearchTerm } from './actionCreators';
 
-const Header = (props: { showSearch?: boolean, handleSearchTermChange: Function, searchTerm: string }) => {
-  let utilSpace;
-  if (props.showSearch) {
-    utilSpace = (
-      <input type="text" placeholder="Search" value={props.searchTerm} onChange={props.handleSearchTermChange} />
-    );
-  } else {
-    utilSpace = (
-      <h2 className="header-back">
-        <Link to="/search">
-          Back
-        </Link>
-      </h2>
-    );
-  }
-  return (
+const Header = () => (
     <header>
       <h1>
         <Link to="/">
-          svideo
+          Home
         </Link>
+        <a className="bebisLink" href="https://www.instagram.com/nataliazo_ua/">
+        bebis</a>
       </h1>
-      {utilSpace}
     </header>
-  );
-};
+
+);
 
 Header.defaultProps = {
   showSearch: false
